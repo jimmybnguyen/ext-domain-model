@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFF4135B1F9EBCEA00F9E1F6 /* ExtDomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4135A1F9EBCEA00F9E1F6 /* ExtDomainModelTests.swift */; };
 		FE6891181CB5D8E40018C340 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6891171CB5D8E40018C340 /* main.swift */; };
 		FE6891251CB5D90B0018C340 /* SimpleDomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6891241CB5D90B0018C340 /* SimpleDomainModelTests.swift */; };
 		FE68912A1CB5D9130018C340 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6891171CB5D8E40018C340 /* main.swift */; };
@@ -30,8 +29,6 @@
 
 /* Begin PBXFileReference section */
 		BFF413581F9EBCEA00F9E1F6 /* ExtDomainModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtDomainModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFF4135A1F9EBCEA00F9E1F6 /* ExtDomainModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtDomainModelTests.swift; sourceTree = "<group>"; };
-		BFF4135C1F9EBCEA00F9E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFF413641F9F121B00F9E1F6 /* testDouble.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDouble.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6891141CB5D8E40018C340 /* ExtDomainModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExtDomainModel; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6891171CB5D8E40018C340 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -75,21 +72,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFF413591F9EBCEA00F9E1F6 /* ExtDomainModelTests */ = {
-			isa = PBXGroup;
-			children = (
-				BFF4135A1F9EBCEA00F9E1F6 /* ExtDomainModelTests.swift */,
-				BFF4135C1F9EBCEA00F9E1F6 /* Info.plist */,
-			);
-			path = ExtDomainModelTests;
-			sourceTree = "<group>";
-		};
 		FE68910B1CB5D8E40018C340 = {
 			isa = PBXGroup;
 			children = (
 				FE6891161CB5D8E40018C340 /* ExtDomainModel */,
 				FE6891231CB5D90B0018C340 /* SimpleDomainModelTests */,
-				BFF413591F9EBCEA00F9E1F6 /* ExtDomainModelTests */,
 				FE6891151CB5D8E40018C340 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -275,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF4135B1F9EBCEA00F9E1F6 /* ExtDomainModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
