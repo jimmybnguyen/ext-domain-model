@@ -105,8 +105,10 @@ public struct Money : CustomStringConvertible, Mathematics {
     }
     
     public var description: String {
-        return "\(currency)\(Double(amount))"
+        return "\(currency)\(Double(amount))";
     }
+    
+    
 }
 
 ////////////////////////////////////
@@ -239,6 +241,9 @@ open class Family {
         return totalIncome
     }
 }
+
+
+
 
 
 
